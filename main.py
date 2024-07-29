@@ -26,6 +26,4 @@ for i in range (nr_symbols):
     random_symbols += (random.choice(symbols))
 print("Password:" + random_letter + random_numbers + random_symbols)
 
-#Hard Level - Order of characters randomised:
-#e.g. 4 letter, 2 symbol, 2 number = g^2jk8&P
 
