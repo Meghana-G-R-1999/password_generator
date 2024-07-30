@@ -18,8 +18,7 @@ nr_numbers = int(input(f"How many numbers would you like?\n"))
 def function1(nr,character):
     random_value = ""
     for i in range (0,nr):
-        value = random.randint(0,len(character)-1)
-        random_value += character[value]
+        random_value += character[random.randint(0,len(character)-1)]
     return random_value
 
 value1 = function1(nr_letters,letters)
